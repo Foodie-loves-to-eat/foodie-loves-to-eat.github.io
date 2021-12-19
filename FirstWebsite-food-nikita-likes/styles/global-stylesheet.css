@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/background-image-main.png");
+    background-position: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.header-nav{
+    float: left;
+    width: 30%;
+    margin:0vh 3vh;
+    vertical-align: middle;
+    position: fixed;
+    margin:25vh 2vh;
+}
+
+header{
+    float:left;
+    width: 12%;
+    margin: 1vh 8vh 3vh 1vh;
+}
+
+header>h1{
+    color:#5CCBC0;
+    font-size: xx-large;
+    font-variant: small-caps;
+    text-shadow: 1px 1px darkcyan;
+    text-align: right;
+}
+
+header>h2{
+    color:#008b8b;
+    font-size: large;
+    text-align: center;
+    font-weight: lighter;
+}
+
+nav{
+    float:right;
+    width:60%;
+    background: #E80C00;
+    color:#5CCBC0;
+    border-radius: 7px;
+    padding: 10px;
+    margin:8vh 0vh;
+}
+
+a{
+    color:#5CCBC0;
+    text-decoration: none;
+    font-variant:small-caps;
+}
+
+#current-section{
+    color:#489991;
+}
+
+a:hover{
+    color:#489991;
+}
+
+nav>#current-page{
+    background:#7c1b15;
+    padding:7px;
+}
+
+.main-body{
+    float: right;
+    width: 62%;
+    margin: 60px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:30px;
+}
+
+.nav-2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.box{
+    background-color:#5CCBC0;
+    color:#491c1a;;
+    border-radius: 7px;
+    padding: 7px 2px;
+    text-align: center;
+    transition: 400ms transform ease; 
+}
+
+.box>img{
+    width:80%;
+}
+
+.box:hover{
+    transform:scale(145%, 130%);
+    background-color:#97faf0;
+}

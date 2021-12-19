@@ -1,0 +1,14 @@
+.recipe-template{
+    float: right;
+    width: 62%;
+    margin: 30px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:30px;
+    color:#491c1a;
+}
+
+.recipe-block{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
